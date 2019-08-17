@@ -11,13 +11,13 @@ namespace HelloWorld
             Console.WriteLine("Hello World!");
             Console.WriteLine("This is Line2!");
             Console.WriteLine("This is Line3!");
-            Console.WriteLine("Greeting from User2!");
+<<<<<<< HEAD
             Console.WriteLine("Greeting from User1!");
             Console.WriteLine("Greeting from User1 HAS MADE THIS CHANGE!");
-
-
+=======
+            Console.WriteLine("Greeting from User2!");
             Console.WriteLine("Greeting from User2 HAS MADE THIS CHANGE!");
-
+>>>>>>> 78e0e04598ea5c0c5c70cdb74e11b9829efc78bf
 
             Calculator oCalculator = new Calculator();
             int sum = oCalculator.Add(5, 7);
