@@ -6,9 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("This is Line2!");
-            Console.WriteLine("This is Line3!");
+            Runner objRunner = new Runner();
+            objRunner.Run();
+
         }
     }
 }
