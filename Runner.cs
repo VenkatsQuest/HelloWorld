@@ -16,6 +16,7 @@ namespace HelloWorld
             Calculator oCalculator = new Calculator();
             int sum = oCalculator.Add(5, 7);
             Console.WriteLine(sum);
+            Console.WriteLine($"The Difference between 5 and 7 is {oCalculator.Subtract(5, 7)}");
 
         }
     }
